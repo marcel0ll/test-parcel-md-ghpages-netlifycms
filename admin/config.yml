@@ -1,0 +1,10 @@
+backend: 
+  repo: marcel0ll/test-parcel-md-ghpages-netlifycms
+  api_root: https://api.github.com
+  branch: main
+  name: github
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
+media_folder: /imgs
+public_folder: /
+

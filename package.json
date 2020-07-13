@@ -1,0 +1,29 @@
+{
+  "name": "@stylemepretty/test-parcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html admin/index.html blog/* ",
+    "build": "parcel build index.html admin/index.html blog/* --out-dir public/ && cp admin/config.yml public/admin/",
+    "serve": "serve public/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcel0ll/test-parcel-md-ghpages-netlifycms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcel0ll/test-parcel-md-ghpages-netlifycms/issues"
+  },
+  "homepage": "https://github.com/marcel0ll/test-parcel-md-ghpages-netlifycms#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "devDependencies": {
+    "serve": "^11.3.2"
+  }
+}
